@@ -1,0 +1,165 @@
+#two {
+  width: calc(100% - 4rem);
+  margin: 2rem;
+}
+#two > div > img {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
+#three {
+  width: calc(100% - 4rem);
+  margin: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+#three > div > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+}
+#fourth {
+  width: calc(100% - 4rem);
+  margin: 2rem;
+}
+#fourth > div > img {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
+#fifth {
+  width: calc(100% - 4rem);
+  margin: 2rem;
+}
+#fifth > div > img {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
+#sixth {
+  width: calc(100% - 4rem);
+  margin: 2rem;
+}
+#sixth > div > img {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
+.home_product {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  overflow-y: hidden;
+  padding: 1rem;
+}
+.home_product-container {
+  display: flex;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  scroll-behavior: smooth;
+}
+.home_product-card {
+  flex: 0 0 auto;
+  width: 270px;
+  height: 400px;
+  margin: 0.5rem;
+  padding: 0;
+}
+.home_product-image {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+.home_product-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#home_p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#home_p:hover {
+  color: #108cd4;
+}
+a:not(#comapnyLogodiva) {
+  touch-action: manipulation;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  text-align: center;
+  margin: 1rem 0.25rem;
+  padding: 1rem;
+  font-size: medium;
+  text-decoration: none;
+}
+#comapnyLogo div a {
+  padding: 1rem;
+}
+.card-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  border: none;
+  color: #000;
+  height: 100%;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+  font-size: x-large;
+}
+.home_product-card:hover .card-btn {
+  opacity: 0.8;
+}
+.card-btn:hover {
+  color: #00a2ff;
+  opacity: 0.6;
+}
+#home_explore {
+  width: calc(100% - 4rem);
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+#home_explore > div {
+  height: 100%;
+}
+#home_explore_p,
+.home_product-category {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
+#home_explore > div > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+}
+#home_explore > div > h2 {
+  margin-top: 15px;
+  font-weight: 100;
+  color: #646261;
+}
+#home_explore_hr {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  width: calc(100% - 4rem);
+  margin: auto;
+}
+#home_hr {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  width: calc(100% - 4rem);
+  margin: auto;
+}
+.home_product::-webkit-scrollbar {
+  display: none;
+}

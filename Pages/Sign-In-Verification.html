@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AnthroLiving Sign In Verification</title>
+    <link rel="stylesheet" href="../Styles/Sign-In-Verification.css" />
+  </head>
+  <body>
+    <div class="screen-1">
+      <label for="otp">Verification Code</label>
+      <div class="otp">
+        <div class="sec-2">
+          <input
+            type="text"
+            name="otp"
+            placeholder="X"
+            id="otp1"
+            maxlength="1"
+            style="border-right: 1px solid rgba(0, 0, 0, 0.25)"
+          />
+          <input
+            type="text"
+            name="otp"
+            placeholder="X"
+            id="otp2"
+            maxlength="1"
+            style="border-right: 1px solid rgba(0, 0, 0, 0.25)"
+          />
+          <input
+            type="text"
+            name="otp"
+            placeholder="X"
+            id="otp3"
+            maxlength="1"
+            style="border-right: 1px solid rgba(0, 0, 0, 0.25)"
+          />
+          <input
+            type="text"
+            name="otp"
+            placeholder="X"
+            id="otp4"
+            maxlength="1"
+          />
+        </div>
+      </div>
+      <button class="login" id="confirmButton" onclick="otpfun()">
+        Confirm
+        <a href="Homepage.html"></a>
+      </button>
+      <div class="footer">
+        <p>
+          Having problems?
+          <a
+            style="color: #485c37; font-weight: bold; text-decoration: none"
+            href="Sign-In-Verification.html"
+            ><br />Resend Code</a
+          >
+        </p>
+      </div>
+    </div>
+    <script src="../Scripts/Sign-In-Verification.js"></script>
+  </body>
+</html>

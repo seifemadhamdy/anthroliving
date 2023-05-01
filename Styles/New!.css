@@ -1,0 +1,182 @@
+#signIn_signUp div a,
+div ul li a {
+  touch-action: manipulation;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  text-align: center;
+  margin: 1rem 0.25rem;
+  padding: 1rem;
+  font-size: medium;
+  text-decoration: none;
+}
+#comapnyLogo div a {
+  padding: 1rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+#upper > div > h2:hover {
+  cursor: pointer;
+  color: #4299fd;
+}
+#shoes > div {
+  position: relative;
+}
+#upper > div > div {
+  position: relative;
+}
+#complete {
+  width: calc(100% - 4rem);
+  margin: auto;
+  z-index: -1;
+}
+#top {
+  display: flex;
+  justify-content: space-between;
+}
+#top > div {
+  width: 15%;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0, rgba(27, 31, 35, 0.15) 0 0 0 1px;
+}
+#shoes {
+  margin-top: 1rem;
+}
+#shoes > div:nth-child(1) {
+  display: flex;
+  width: 400px;
+}
+#shoes > div:last-child {
+  display: flex;
+  width: 200px;
+  margin-left: 200px;
+  margin-top: 12px;
+}
+#sort {
+  font-size: 1rem;
+  color: #5c5c5f;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+#images {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+#images > div {
+  overflow: hidden;
+  position: relative;
+}
+#images > div > img {
+  width: 100%;
+  transition-duration: 1.25s;
+}
+#images > div:hover img {
+  transform: scale(2);
+}
+#top > div:nth-child(1) {
+  background-color: #146847;
+  color: #fff;
+}
+#top > div:nth-child(2) {
+  background-color: #459d93;
+  color: #fff;
+}
+#top > div:nth-child(3) {
+  background-color: #6687a7;
+  color: #fff;
+}
+#top > div:nth-child(4) {
+  background-color: #4f9589;
+  color: #fff;
+}
+#top > div:nth-child(5) {
+  background-color: #5d8b52;
+  color: #fff;
+}
+#top > div:nth-child(6) {
+  background-color: #6799aa;
+  color: #fff;
+}
+#box {
+  margin-left: 1rem;
+  width: 100%;
+}
+#upper {
+  display: flex;
+  position: relative;
+}
+#complete > #upper a {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  display: block;
+  color: #555;
+}
+#complete > #upper a:hover {
+  text-decoration: underline;
+}
+#shoes > div:nth-child(2) {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+#complete > #upper a + h3 {
+  margin-top: 1.5rem;
+}
+#upper > div:first-child > h2 {
+  margin-top: 20px;
+}
+#price ~ h2 {
+  font-weight: 400;
+  font-size: 20px;
+}
+#price {
+  font-weight: 400;
+  font-size: 20px;
+}
+#btn-btn {
+  margin-left: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+@media all and (min-width: 784px) and (max-width: 1074px) {
+  #images {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 420px);
+    gap: 10px;
+  }
+  #box {
+    width: 100%;
+  }
+  #upper {
+    width: 100%;
+  }
+}
+@media all and (min-width: 200px) and (max-width: 783px) {
+  #images {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 400px);
+    gap: 10px;
+  }
+  #box {
+    width: 100%;
+  }
+  #upper > div:first-child {
+    display: none;
+  }
+  #upper {
+    width: 100%;
+  }
+}
